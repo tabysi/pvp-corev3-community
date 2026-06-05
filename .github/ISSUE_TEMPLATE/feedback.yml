@@ -1,0 +1,22 @@
+name: 🗣️ Feedback / Idea
+description: General feedback, balance / QoL thoughts, or a small idea.
+title: "[Feedback]: "
+labels: ["feedback"]
+body:
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Type
+      options:
+        - General feedback
+        - Quality-of-life
+        - Balance / RP realism
+        - Small idea
+    validations:
+      required: true
+  - type: textarea
+    id: body
+    attributes:
+      label: Your feedback / idea
+    validations:
+      required: true

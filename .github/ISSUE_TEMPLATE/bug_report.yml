@@ -1,0 +1,58 @@
+name: 🐞 Bug Report
+description: Something is broken or not working as expected.
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: Thanks for helping improve pvp-corev3! Please search existing issues first.
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: A clear description of the bug.
+      placeholder: When I open the MDT and click ..., it ...
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the MDT (/mdt)
+        2. Go to the ... tab
+        3. Click ...
+        4. See the error
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behaviour
+      description: What did you expect to happen instead?
+    validations:
+      required: false
+  - type: input
+    id: version
+    attributes:
+      label: Resource version
+      description: From fxmanifest.lua (e.g. 3.0.3c)
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Errors / screenshots / video
+      description: Paste F8 client console or server console errors, and add screenshots/video if you can.
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: confirm
+    attributes:
+      label: Before submitting
+      options:
+        - label: I searched existing issues and this is not a duplicate.
+          required: true
+        - label: It still happens without unrelated third-party resources interfering (best effort).
+          required: false
