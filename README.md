@@ -8,7 +8,7 @@ The source code is maintained privately, so **this repo is only for the communit
 - 🐞 **Report a bug** → [Open an issue](../../issues/new/choose)
 - 💡 **Request a feature / share a wish** → [Open an issue](../../issues/new/choose)
 - 🗣️ **Feedback, ideas & questions** → [Discussions](../../discussions)
-- 🌍 **Translate the MDT/CAD UI** → [Contribute on GitLocalize](https://gitlocalize.com/repo/tabysi/pvp-corev3-community)
+- 🌍 **Translate the MDT/CAD UI** → [Contribute on GitLocalize](https://gitlocalize.com/repo/10802)
 
 ## How it works
 
