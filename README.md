@@ -34,6 +34,14 @@ Community members can improve existing translations or add new languages via **G
 
 For details on file format, placeholders and style guidelines, see [TRANSLATING.md](TRANSLATING.md).
 
+<p align="left">
+<a href="https://gitlocalize.com/repo/10802/de?utm_source=badge"> <img src="https://gitlocalize.com/repo/10802/de/badge.svg" /> </a>
+<a href="https://gitlocalize.com/repo/10802/es?utm_source=badge"> <img src="https://gitlocalize.com/repo/10802/es/badge.svg" /> </a>
+<a href="https://gitlocalize.com/repo/10802/fr?utm_source=badge"> <img src="https://gitlocalize.com/repo/10802/fr/badge.svg" /> </a>
+<a href="https://gitlocalize.com/repo/10802/pl?utm_source=badge"> <img src="https://gitlocalize.com/repo/10802/pl/badge.svg" /> </a>
+<a href="https://gitlocalize.com/repo/10802/ru?utm_source=badge"> <img src="https://gitlocalize.com/repo/10802/ru/badge.svg" /> </a>
+</p>
+
 ## Labels
 
 `bug` · `enhancement` · `feedback` · `planned` · `in-progress` · `shipped` ·
