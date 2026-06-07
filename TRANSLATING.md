@@ -25,8 +25,9 @@ A maintainer will add the empty file and it will appear in GitLocalize automatic
 
 ## File format
 
-Translations live in `translations/locale/<code>.json`.  
-The **source** (reference) file is `en.json`.
+Translations live in `translations/locale/en_<code>.json`.  
+The **source** (reference) file is `en.json`.  
+GitLocalize handles the naming automatically — you never need to create files manually.
 
 - Every key in `en.json` must exist in your translation file.
 - Values may contain FiveM color codes (e.g. `~r~`, `~y~`) — keep them **unchanged**.
