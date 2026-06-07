@@ -1,0 +1,24 @@
+format_version: 1
+
+project:
+  name: pvp-corev3
+  slug: pvp-corev3
+  web: https://github.com/tabysi/pvp-corev3-community
+  instructions: https://github.com/tabysi/pvp-corev3-community/blob/main/TRANSLATING.md
+
+components:
+  - name: MDT / NUI
+    slug: mdt-nui
+    vcs: git
+    repo: https://github.com/tabysi/pvp-corev3-community
+    push: https://github.com/tabysi/pvp-corev3-community
+    branch: main
+    filemask: translations/locale/*.json
+    template: translations/locale/en.json
+    new_base: translations/locale/en.json
+    file_format: json-nested
+    license: proprietary
+    source_language: en
+    edit_template: false
+    allow_translation_propagation: true
+    check_flags: strict-format

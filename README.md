@@ -8,6 +8,7 @@ The source code is maintained privately, so **this repo is only for the communit
 - 🐞 **Report a bug** → [Open an issue](../../issues/new/choose)
 - 💡 **Request a feature / share a wish** → [Open an issue](../../issues/new/choose)
 - 🗣️ **Feedback, ideas & questions** → [Discussions](../../discussions)
+- 🌍 **Translate the MDT/CAD UI** → [Contribute on Weblate](https://hosted.weblate.org/projects/pvp-corev3/mdt-nui/)
 
 ## How it works
 
@@ -18,6 +19,20 @@ The source code is maintained privately, so **this repo is only for the communit
    start a **Discussion** for open-ended ideas and questions.
 3. The maintainers triage, label and — if accepted — implement it in the private
    codebase. You'll get an update on the issue/discussion when it ships.
+
+## Translations
+
+The MDT / Dispatch UI supports **English, German and Russian** out of the box.
+Community members can improve existing translations or add new languages via **Weblate** — no coding required.
+
+| Step | What to do |
+|------|------------|
+| 1 | Create a free account at [hosted.weblate.org](https://hosted.weblate.org) |
+| 2 | Open the project: [pvp-corev3 / MDT-NUI](https://hosted.weblate.org/projects/pvp-corev3/mdt-nui/) |
+| 3 | Pick your language and start translating |
+| 4 | Changes are committed to this repo automatically |
+
+For details on file format, placeholders and style guidelines, see [TRANSLATING.md](TRANSLATING.md).
 
 ## Labels
 
