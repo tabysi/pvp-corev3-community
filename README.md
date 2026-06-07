@@ -8,7 +8,7 @@ The source code is maintained privately, so **this repo is only for the communit
 - 🐞 **Report a bug** → [Open an issue](../../issues/new/choose)
 - 💡 **Request a feature / share a wish** → [Open an issue](../../issues/new/choose)
 - 🗣️ **Feedback, ideas & questions** → [Discussions](../../discussions)
-- 🌍 **Translate the MDT/CAD UI** → [Contribute on Weblate](https://hosted.weblate.org/projects/pvp-corev3/mdt-nui/)
+- 🌍 **Translate the MDT/CAD UI** → [Contribute on GitLocalize](https://gitlocalize.com/repo/tabysi/pvp-corev3-community)
 
 ## How it works
 
@@ -23,14 +23,14 @@ The source code is maintained privately, so **this repo is only for the communit
 ## Translations
 
 The MDT / Dispatch UI supports **English, German and Russian** out of the box.
-Community members can improve existing translations or add new languages via **Weblate** — no coding required.
+Community members can improve existing translations or add new languages via **GitLocalize** — no coding required, just a GitHub account.
 
 | Step | What to do |
 |------|------------|
-| 1 | Create a free account at [hosted.weblate.org](https://hosted.weblate.org) |
-| 2 | Open the project: [pvp-corev3 / MDT-NUI](https://hosted.weblate.org/projects/pvp-corev3/mdt-nui/) |
+| 1 | Open [GitLocalize](https://gitlocalize.com/repo/tabysi/pvp-corev3-community) |
+| 2 | Log in with GitHub (free) |
 | 3 | Pick your language and start translating |
-| 4 | Changes are committed to this repo automatically |
+| 4 | Click "Create Review Request" — done! |
 
 For details on file format, placeholders and style guidelines, see [TRANSLATING.md](TRANSLATING.md).
 

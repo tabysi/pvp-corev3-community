@@ -1,16 +1,16 @@
 # Contributing Translations — pvp-corev3
 
 Thank you for helping translate the pvp-corev3 MDT / CAD system!
-All translations are managed through **Weblate** — a free, browser-based translation platform.
+All translations are managed through **GitLocalize** — a free, browser-based translation platform that works directly with GitHub.
 
 ---
 
 ## Quick start
 
-1. Create a free account at **https://hosted.weblate.org**
-2. Open the project: **https://hosted.weblate.org/projects/pvp-corev3/mdt-nui/**
+1. Go to **https://gitlocalize.com/repo/tabysi/pvp-corev3-community**
+2. Log in with your GitHub account (free)
 3. Select your language → start translating
-4. Your changes are automatically committed to this repository
+4. Click **"Create Review Request"** when done — this automatically opens a Pull Request
 
 No Git knowledge required.
 
@@ -19,7 +19,7 @@ No Git knowledge required.
 ## Adding a brand-new language
 
 If your language does not exist yet, open a GitHub issue titled **"New language: \<name\>"** and mention the ISO 639-1 code (e.g. `fr` for French, `es` for Spanish).  
-A maintainer will add the empty file and enable it on Weblate.
+A maintainer will add the empty file and it will appear in GitLocalize automatically.
 
 ---
 
@@ -29,8 +29,8 @@ Translations live in `translations/locale/<code>.json`.
 The **source** (reference) file is `en.json`.
 
 - Every key in `en.json` must exist in your translation file.
-- Values may contain HTML-like color codes from FiveM (e.g. `~r~`, `~y~`) — keep them unchanged.
-- Values may contain `{placeholder}` variables (e.g. `{id}`, `{unit}`) — keep them unchanged, only translate the surrounding text.
+- Values may contain FiveM color codes (e.g. `~r~`, `~y~`) — keep them **unchanged**.
+- Values may contain `{placeholder}` variables (e.g. `{id}`, `{unit}`) — keep the `{…}` unchanged, only translate the surrounding text.
 
 **Example:**
 ```json
@@ -53,7 +53,7 @@ The **source** (reference) file is `en.json`.
 | *other*  | Neutral         | Match the tone of the English source       |
 
 - Keep translations **short** — many strings appear in compact UI buttons.
-- Uppercase words (e.g. `UNIT STATUS`) should stay uppercase in translations where it looks natural.
+- Uppercase words (e.g. `UNIT STATUS`) should stay uppercase where it looks natural.
 
 ---
 
