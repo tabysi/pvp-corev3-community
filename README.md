@@ -27,7 +27,7 @@ Community members can improve existing translations or add new languages via **G
 
 | Step | What to do |
 |------|------------|
-| 1 | Open [GitLocalize](https://gitlocalize.com/repo/tabysi/pvp-corev3-community) |
+| 1 | Open [GitLocalize](https://gitlocalize.com/repo/10802) |
 | 2 | Log in with GitHub (free) |
 | 3 | Pick your language and start translating |
 | 4 | Click "Create Review Request" — done! |
